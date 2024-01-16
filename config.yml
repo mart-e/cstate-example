@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: Odoo Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -143,10 +143,6 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
-    - name: North Coast
-      description: The main servers are located here.
-      closed: true
-    - name: Empty Category
     - name: Uncategorized
       untitled: true
 
@@ -158,20 +154,16 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: North Coast
-    - name: Website
-      description: The web frontend for the application.
+    - name: odoo.com
       category: Uncategorized
-      link: https://example.com/
-    - name: API
-      description: The guts of the application.
+      description: The main services.
+      link: https://www.odoo.com/
+    - name: apps.odoo.com
       category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
+      link: https://apps.odoo.com/
+    - name: runbot.odoo.com
       category: Uncategorized
+      link: https://runbot.odoo.com/
 
   # What date format to use?
   #
@@ -182,7 +174,7 @@ params:
   #
   # dateFormat Default: "January 2, 2006 at 3:04 PM"
   # shortDateFormat Default: "15:04 — Jan 2"
-  dateFormat: January 2, 2006 at 3:04 PM UTC
+  dateFormat: 2006-01-02 15:04 UTC
   shortDateFormat: 15:04 UTC — Jan 2
 
   # Should relative time (x min ago) be used?
@@ -333,7 +325,7 @@ params:
   # disrupted: "#cc4400"
   # down: "#e60000"
   # notice: "#24478f"
-  brand: "#0a0c0f"
+  brand: "#714B67"
   ok: "#008000"
   disrupted: "#cc4400"
   down: "#e60000"
